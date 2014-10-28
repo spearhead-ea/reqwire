@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/damchoi/.nvm/v0.8.26/bin/node',
+1 verbose cli   '/home/damchoi/.nvm/v0.8.26/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.26
+4 verbose publish [ '.' ]
+5 verbose read json /home/damchoi/work/reqwire/package.json
+6 warn package.json reqwire@0.0.1 No repository field.
+7 warn package.json reqwire@0.0.1 No readme data.
+8 verbose cache add [ '.', null ]
+9 verbose cache add name=undefined spec="." args=[".",null]
+10 verbose parsed url { pathname: '.', path: '.', href: '.' }
+11 silly lockFile 3a52ce78- .
+12 verbose lock . /home/damchoi/.npm/3a52ce78-.lock
+13 verbose read json package.json
+14 verbose tar pack [ '/home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz',
+14 verbose tar pack   '.' ]
+15 verbose tarball /home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz
+16 verbose folder .
+17 info prepublish reqwire@0.0.1
+18 silly lockFile 1f1177db-tar tar://.
+19 verbose lock tar://. /home/damchoi/.npm/1f1177db-tar.lock
+20 silly lockFile af790cf7-3500-0-18049365957267582-tmp-tgz tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz
+21 verbose lock tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz /home/damchoi/.npm/af790cf7-3500-0-18049365957267582-tmp-tgz.lock
+22 silly lockFile 1f1177db-tar tar://.
+23 silly lockFile 1f1177db-tar tar://.
+24 silly lockFile af790cf7-3500-0-18049365957267582-tmp-tgz tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz
+25 silly lockFile af790cf7-3500-0-18049365957267582-tmp-tgz tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz
+26 verbose tar unpack /home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz
+27 silly lockFile 4fc13355-3500-0-18049365957267582-package tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package
+28 verbose lock tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package /home/damchoi/.npm/4fc13355-3500-0-18049365957267582-package.lock
+29 silly lockFile af790cf7-3500-0-18049365957267582-tmp-tgz tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz
+30 verbose lock tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz /home/damchoi/.npm/af790cf7-3500-0-18049365957267582-tmp-tgz.lock
+31 silly gunzTarPerm modes [ '755', '644' ]
+32 silly gunzTarPerm extractEntry package.json
+33 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+34 silly gunzTarPerm extractEntry lib/wire.js
+35 silly gunzTarPerm modified mode [ 'lib/wire.js', 436, 420 ]
+36 verbose read json /home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package/package.json
+37 silly lockFile 4fc13355-3500-0-18049365957267582-package tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package
+38 silly lockFile 4fc13355-3500-0-18049365957267582-package tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package
+39 silly lockFile af790cf7-3500-0-18049365957267582-tmp-tgz tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz
+40 silly lockFile af790cf7-3500-0-18049365957267582-tmp-tgz tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/tmp.tgz
+41 verbose from cache /home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package/package.json
+42 verbose tar pack [ '/home/damchoi/.npm/reqwire/0.0.1/package.tgz',
+42 verbose tar pack   '/home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package' ]
+43 verbose tarball /home/damchoi/.npm/reqwire/0.0.1/package.tgz
+44 verbose folder /home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package
+45 silly lockFile 4fc13355-3500-0-18049365957267582-package tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package
+46 verbose lock tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package /home/damchoi/.npm/4fc13355-3500-0-18049365957267582-package.lock
+47 silly lockFile 89a5656e-oi-npm-reqwire-0-0-1-package-tgz tar:///home/damchoi/.npm/reqwire/0.0.1/package.tgz
+48 verbose lock tar:///home/damchoi/.npm/reqwire/0.0.1/package.tgz /home/damchoi/.npm/89a5656e-oi-npm-reqwire-0-0-1-package-tgz.lock
+49 silly lockFile 4fc13355-3500-0-18049365957267582-package tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package
+50 silly lockFile 4fc13355-3500-0-18049365957267582-package tar:///home/damchoi/tmp/npm-8965/1414474373500-0.18049365957267582/package
+51 silly lockFile 89a5656e-oi-npm-reqwire-0-0-1-package-tgz tar:///home/damchoi/.npm/reqwire/0.0.1/package.tgz
+52 silly lockFile 89a5656e-oi-npm-reqwire-0-0-1-package-tgz tar:///home/damchoi/.npm/reqwire/0.0.1/package.tgz
+53 silly lockFile d00c3bc2-amchoi-npm-reqwire-0-0-1-package /home/damchoi/.npm/reqwire/0.0.1/package
+54 verbose lock /home/damchoi/.npm/reqwire/0.0.1/package /home/damchoi/.npm/d00c3bc2-amchoi-npm-reqwire-0-0-1-package.lock
+55 silly lockFile d00c3bc2-amchoi-npm-reqwire-0-0-1-package /home/damchoi/.npm/reqwire/0.0.1/package
+56 silly lockFile d00c3bc2-amchoi-npm-reqwire-0-0-1-package /home/damchoi/.npm/reqwire/0.0.1/package
+57 verbose tar unpack /home/damchoi/.npm/reqwire/0.0.1/package.tgz
+58 silly lockFile d5fb09b2-amchoi-npm-reqwire-0-0-1-package tar:///home/damchoi/.npm/reqwire/0.0.1/package
+59 verbose lock tar:///home/damchoi/.npm/reqwire/0.0.1/package /home/damchoi/.npm/d5fb09b2-amchoi-npm-reqwire-0-0-1-package.lock
+60 silly lockFile 89a5656e-oi-npm-reqwire-0-0-1-package-tgz tar:///home/damchoi/.npm/reqwire/0.0.1/package.tgz
+61 verbose lock tar:///home/damchoi/.npm/reqwire/0.0.1/package.tgz /home/damchoi/.npm/89a5656e-oi-npm-reqwire-0-0-1-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry lib/wire.js
+65 verbose read json /home/damchoi/.npm/reqwire/0.0.1/package/package.json
+66 silly lockFile d5fb09b2-amchoi-npm-reqwire-0-0-1-package tar:///home/damchoi/.npm/reqwire/0.0.1/package
+67 silly lockFile d5fb09b2-amchoi-npm-reqwire-0-0-1-package tar:///home/damchoi/.npm/reqwire/0.0.1/package
+68 silly lockFile 89a5656e-oi-npm-reqwire-0-0-1-package-tgz tar:///home/damchoi/.npm/reqwire/0.0.1/package.tgz
+69 silly lockFile 89a5656e-oi-npm-reqwire-0-0-1-package-tgz tar:///home/damchoi/.npm/reqwire/0.0.1/package.tgz
+70 verbose from cache /home/damchoi/.npm/reqwire/0.0.1/package/package.json
+71 verbose chmod /home/damchoi/.npm/reqwire/0.0.1/package.tgz 644
+72 verbose chown /home/damchoi/.npm/reqwire/0.0.1/package.tgz [ 1000, 1000 ]
+73 silly lockFile 3a52ce78- .
+74 silly lockFile 3a52ce78- .
+75 silly publish { name: 'reqwire',
+75 silly publish   version: '0.0.1',
+75 silly publish   main: 'lib/wire.js',
+75 silly publish   readme: 'ERROR: No README data found!',
+75 silly publish   _id: 'reqwire@0.0.1',
+75 silly publish   dist: { shasum: 'e45c13301b1cf6f5e24e1993b61daac61ce009d7' },
+75 silly publish   _from: '.' }
+76 verbose url raw reqwire
+77 verbose url resolving [ 'https://registry.npmjs.org/', './reqwire' ]
+78 verbose url resolved https://registry.npmjs.org/reqwire
+79 info trying registry request attempt 1 at 14:32:54
+80 http PUT https://registry.npmjs.org/reqwire
+81 http 201 https://registry.npmjs.org/reqwire
+82 verbose url raw reqwire
+83 verbose url resolving [ 'https://registry.npmjs.org/', './reqwire' ]
+84 verbose url resolved https://registry.npmjs.org/reqwire
+85 info trying registry request attempt 1 at 14:32:54
+86 http GET https://registry.npmjs.org/reqwire
+87 http 200 https://registry.npmjs.org/reqwire
+88 verbose uploading [ 'reqwire/-/reqwire-0.0.1.tgz/-rev/5-e1f6a3f95d40987e805a2f5c1fa0142e',
+88 verbose uploading   '/home/damchoi/.npm/reqwire/0.0.1/package.tgz' ]
+89 verbose url raw reqwire/-/reqwire-0.0.1.tgz/-rev/5-e1f6a3f95d40987e805a2f5c1fa0142e
+90 verbose url resolving [ 'https://registry.npmjs.org/',
+90 verbose url resolving   './reqwire/-/reqwire-0.0.1.tgz/-rev/5-e1f6a3f95d40987e805a2f5c1fa0142e' ]
+91 verbose url resolved https://registry.npmjs.org/reqwire/-/reqwire-0.0.1.tgz/-rev/5-e1f6a3f95d40987e805a2f5c1fa0142e
+92 info trying registry request attempt 1 at 14:32:55
+93 http PUT https://registry.npmjs.org/reqwire/-/reqwire-0.0.1.tgz/-rev/5-e1f6a3f95d40987e805a2f5c1fa0142e
+94 http 201 https://registry.npmjs.org/reqwire/-/reqwire-0.0.1.tgz/-rev/5-e1f6a3f95d40987e805a2f5c1fa0142e
+95 verbose publish attached [ 'reqwire',
+95 verbose publish   '/home/damchoi/.npm/reqwire/0.0.1/package.tgz',
+95 verbose publish   'reqwire-0.0.1.tgz' ]
+96 verbose url raw reqwire/0.0.1/-tag/latest
+97 verbose url resolving [ 'https://registry.npmjs.org/', './reqwire/0.0.1/-tag/latest' ]
+98 verbose url resolved https://registry.npmjs.org/reqwire/0.0.1/-tag/latest
+99 info trying registry request attempt 1 at 14:32:55
+100 http PUT https://registry.npmjs.org/reqwire/0.0.1/-tag/latest
+101 http 403 https://registry.npmjs.org/reqwire/0.0.1/-tag/latest
+102 info trying registry request attempt 1 at 14:32:56
+103 http PUT https://registry.npmjs.org/reqwire/0.0.1/-tag/latest
+104 http 403 https://registry.npmjs.org/reqwire/0.0.1/-tag/latest
+105 error publish Error uploading package
+106 error Error: forbidden Attempting to modify version 0.0.1,
+106 error which was previously published on 2014-06-17T06:12:20.858Z.
+106 error This is forbidden, to maintain package integrity.
+106 error Please update the version number and try again.: reqwire/0.0.1/-tag/latest
+106 error     at RegClient.<anonymous> (/home/damchoi/.nvm/v0.8.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+106 error     at Request.init.self.callback (/home/damchoi/.nvm/v0.8.26/lib/node_modules/npm/node_modules/request/index.js:148:22)
+106 error     at Request.EventEmitter.emit (events.js:99:17)
+106 error     at Request.onResponse (/home/damchoi/.nvm/v0.8.26/lib/node_modules/npm/node_modules/request/index.js:876:14)
+106 error     at Request.EventEmitter.emit (events.js:126:20)
+106 error     at IncomingMessage.Request.onResponse.buffer (/home/damchoi/.nvm/v0.8.26/lib/node_modules/npm/node_modules/request/index.js:827:12)
+106 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+106 error     at IncomingMessage._emitEnd (http.js:367:10)
+106 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+106 error     at CleartextStream.socketOnData [as ondata] (http.js:1491:20)
+107 error If you need help, you may report this log at:
+107 error     <http://github.com/isaacs/npm/issues>
+107 error or email it to:
+107 error     <npm-@googlegroups.com>
+108 error System Linux 3.2.0-51-generic
+109 error command "/home/damchoi/.nvm/v0.8.26/bin/node" "/home/damchoi/.nvm/v0.8.26/bin/npm" "publish"
+110 error cwd /home/damchoi/work/reqwire
+111 error node -v v0.8.26
+112 error npm -v 1.2.30
+113 verbose exit [ 1, true ]
