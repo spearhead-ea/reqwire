@@ -1,14 +1,14 @@
 {
-	"name": "reqwire",
-	"version": "0.0.2",
-	"description": "Asynchronous module loader for Node.js",
-	"main": "lib/reqwire.js",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/spearhead-ea/reqwire"
-	},
-	"author": {
-		"name": "damchoi@ea.com"
-	}
-	"license": "BSD"
+  "name": "reqwire",
+  "version": "0.0.2",
+  "description": "Asynchronous module loader for Node.js",
+  "main": "lib/reqwire.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spearhead-ea/reqwire"
+  },
+  "author": {
+    "name": "damchoi@ea.com"
+  }
+  "license": "BSD"
 }
